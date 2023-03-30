@@ -1,0 +1,105 @@
+.homeContent {
+  padding: 1rem;
+  gap: 0.8rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #F3F6F9;
+}
+
+.homeContentTop {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 0.8rem;
+}
+
+.homeWrapper1 {
+  display: flex;
+}
+
+.homeWrapper2 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  height: min-content;
+}
+
+.homeWrapper3 {
+  display: flex;
+  
+  gap: 1.2rem;
+}
+
+.homeArticleAbout {
+  background-color: #FFF;
+  padding: 0.8rem;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 15rem;
+  color: #818181;
+}
+
+.homeArticleAbout h1 {
+  color: #474C5C;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.homeArticleAbout h1:first-child {
+  margin-bottom: 0.3rem;
+}
+
+.homeArticleAbout ul {
+  margin-bottom: 1.6rem;
+}
+
+.homeArticleAbout ul li {
+  line-height: 1.4rem;
+}
+
+.homeArticleAbout span {
+  color: #515769;
+  font-weight: 400;
+}
+
+.homeArticleAbout ul {
+  list-style: none;
+}
+
+.x {
+  background-color: #FFF;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.article2 {
+  background-color: #FFF;
+  padding: 0.5rem;
+  border-radius: 5px;
+  
+
+}
+
+.article3 {
+  background-color: #FFF;
+  padding: 0.5rem;
+  border-radius: 5px;
+  
+
+}
+
+.article4 {
+  background-color: #FFF;
+  padding: 0.5rem;
+  border-radius: 5px;
+
+
+}
+
+.article5 {
+  background-color: #FFF;
+  padding: 0.5rem;
+  border-radius: 5px;
+
+}

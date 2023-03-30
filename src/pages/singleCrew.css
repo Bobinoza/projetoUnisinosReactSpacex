@@ -1,0 +1,68 @@
+.singleCrewWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 100vw;
+  height: 100vh;
+
+  background-image: linear-gradient( 76.3deg,  rgba(44,62,78,1) 12.6%, rgba(69,103,131,1) 82.8% );
+}
+
+.singleCrewWrapper2 {
+  display: flex;
+}
+
+.singleCrewWrapper img {
+  width: 22rem;
+  border-radius: 5px;
+}
+
+.singleCrewContent {
+  padding-left: 1rem;
+  align-self: flex-start;
+}
+
+.singleCrewContent h1 {
+  color: #FFF;
+  font-size: 2.6rem;
+}
+
+.singleCrewContent h2 {
+  color: #FFF;
+}
+
+.singleCrewContent ul {
+  list-style: none;
+  color: #FFF;
+}
+
+.singleCrewActiveStatus {
+  color: rgb(26, 158, 0);
+}
+
+.singleCrewOffStatus {
+  color: rgb(202, 0, 0);
+}
+
+.singleCrewButtons {
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  gap: 1rem;
+}
+
+.singleCrewButtons li:first-child {
+  padding: 1rem;
+  border: 1px solid #FFF;
+}
+
+.singleCrewButtons li:last-child {
+  padding: 1rem;
+}
+
+.singleCrewButtons a {
+  text-decoration: none;
+  color: #FFF;
+}
+
