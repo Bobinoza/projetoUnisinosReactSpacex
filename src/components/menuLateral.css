@@ -1,12 +1,9 @@
 nav {
-  background-color: #FFF;
-  display: flex;
-  justify-content: center;
-  
   padding: 2rem 2rem 0 2rem;
-  width: 14rem;
+  border-right: 1px solid rgba(0, 0, 0, 0.1); 
+  display: flex;
 
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  max-height: 100vh; /* add*/
 }
 
 nav ul {
@@ -28,16 +25,74 @@ nav ul li {
 
 .navLink {
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #474C5C;
   text-decoration: none;
+  padding: 0.5rem 0.5rem;
   transition: 0.4s ease-out;
 }
 
 .navLink:hover {
   background-color: #C4E7D2;
   color: #FFF;
-  padding: 0.5rem 1rem;
   border-radius: 5px;
   transition: 0.4s ease-in;
+}
+
+.btn-menuLateral {
+  position: absolute;
+  bottom: 3rem;
+}
+
+.btn-menuLateral button {
+  padding: 0.4rem 0.4rem;
+  background-color: #474C5C;
+  color: #FFFF;
+  font-size: 0.8rem;
+  font-weight: 400;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.btn-menuLateral button:hover {
+  background-color: #C4E7D2;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  nav {
+    justify-content: center;
+    align-items: center;
+    max-height: none;
+    height: 4rem;
+    width: 100vw;
+    padding: 1.4rem 1rem;
+  }
+
+  nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  nav ul {
+    display: none;
+  }
+
+  .navLinkTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .navLinkTop img {
+    width: 8rem; 
+  }
+
+  .btn-menuLateral {
+    display: none;
+  }
 }

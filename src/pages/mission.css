@@ -1,0 +1,62 @@
+.mission_wrapper {
+  display: flex;
+
+  overflow-y: auto; /* add */
+  max-height: 100vh; /* add */
+}
+
+.mission_section_1 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/src/assets/mission_feature.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mission_section_1_texts {
+  display: flex;
+  flex-direction: column;
+  max-width: 55rem;
+  margin-top: -10%;
+  text-align: center;
+  gap: 1rem;
+}
+.mission_section_1 p:first-child {
+  color: white;
+  font-weight: 100;
+  font-size: 1.3rem;
+  letter-spacing: 0.1rem;
+  /* -webkit-font-smoothing: antialiased; */
+}
+
+.mission_section_1 p:nth-child(2) {
+  color: white;
+  font-size: 1.3rem;
+}
+
+/* section 2 */
+.mission_section_2 {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/src/assets/STARSHIP_CAPABILITIES_INTERPLANETARYDESTINATIONS_Mars_01_2023_01_Desktop_Darkerv2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* COUNT CSS */
+.mission_section_2_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: black;
+}

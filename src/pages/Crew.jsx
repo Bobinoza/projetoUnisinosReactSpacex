@@ -8,7 +8,7 @@ import './crew.css';
 function Crew() {
   const [crew, setCrew] = useState([]);
 
-  useState(() => {
+  useEffect(() => {
     const fetchCrew = async () => {
       const res = await fetch("https://api.spacexdata.com/v4/crew")
       const data = await res.json()
